@@ -17,6 +17,7 @@ function spotInLine() {
 function sayHello() {
     alert("Hello World!")
 }
+sayHello ()
 
 function checkAge(age, name) {
     if (age < 21) {
@@ -75,4 +76,4 @@ function getlength(word) {
         console.log("The world is an odd place!")
     }
 }
-getlength('Nathaniel')
+getlength('Hello'+'World')
